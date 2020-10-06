@@ -58,6 +58,9 @@ body {
     /* float: right; */
     /* text-decoration: none; */
 }
+.nav-bar li:hover {
+    border-bottom: 5px solid white;
+}
 .nav-wrap {
     position: absolute;
     right: 0;
@@ -76,7 +79,7 @@ body {
 }
 #active {
     /* box-sizing: border-box; */
-    border-bottom: 5px solid white;
+    /* border-bottom: 5px solid white; */
     /* border: 1px solid white; */
 }
 .main-text {
@@ -243,10 +246,21 @@ cursor: pointer;
 .inputs input {
     height: 40px;
     background-color: black;
+    color: white;
 }
 .message {
+    color: white;
     margin-top: 15px;
     height: 70px;
     width: 390px;
     background-color: black;
+}
+.contact-us button {
+    margin-top: 40px;
+    background: transparent;
+    border: none;
+}
+#shuffle{
+    margin-left: -35px;
+    margin-bottom: -15px;
 }
